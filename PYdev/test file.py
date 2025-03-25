@@ -56,4 +56,4 @@ while True:
                 break  # Konec cyklického dotazu na věk v případě chybného zadání.
 
         except ValueError:
-            print("Něco se pokazilo :(")
+            print("Něco se pokazilo :(' )
