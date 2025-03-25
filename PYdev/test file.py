@@ -3,7 +3,7 @@ from datetime import datetime
 print("VÍTEJTE V KALKULAČCE DOPRAVNÍHO PODNIKU")
 
 while True:
-    # Vstup uživatele pro rok narození
+    # Vstup uživatele pro rok narození YYYY
     birth_year = input("Zadejte prosím váš rok narození (RRRR): ")
 
     # Kontrola délky a formátu
