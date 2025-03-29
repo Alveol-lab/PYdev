@@ -32,9 +32,8 @@ print()
 
 # 3. Zero element
 print("III.Comprehension list pro prvky obsahující 0")
-zero_element = [e for e in random_codes if "0" in e]
-for zero in zero_element:
-    print(zero)
+zero = [e for e in random_codes if "0" in e]
+print(zero)
 
 # 4. Sublist 3e
 print("IV. prvky se třemi po sobě jdoucími znaky v seznamu RC vypsané do samostatných sub-listů: ")
