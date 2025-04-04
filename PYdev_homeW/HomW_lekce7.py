@@ -30,11 +30,8 @@ def is_adult(year_of_birth):
     age = current_year - year_of_birth
     return age >= 18
 
-
 def is_name_valid(username):
     return bool(username) and len(username) >= 4
-    # Kontrola, zda není jméno prázdné a zda má alespoň 4 znaky, z nějakého důvodu to ale prázdné pole pustí...
-
 
 def create_user(username, year_of_birth, email):
     if not is_name_valid(username):
@@ -116,5 +113,6 @@ def main():
             print_user_info(user_info)  # hlaška
             continue  # začne znovu
 
-if main ()
+if __name__ == "__main__":
+    main()
 
