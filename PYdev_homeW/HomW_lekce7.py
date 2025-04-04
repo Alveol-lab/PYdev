@@ -110,8 +110,8 @@ def main():
                 print("Neplatná volba, uživatel nebyl vytvořen.")
         else:
             print("Údaje nebyly uloženy vzhledem k chybě.")
-            print_user_info(user_info)  # hlaška
-            continue  # začne znovu
+            print_user_info(user_info)
+            continue
 
 if __name__ == "__main__":
     main()
