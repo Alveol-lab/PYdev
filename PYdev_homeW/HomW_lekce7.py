@@ -72,7 +72,6 @@ def main():
     while True:
         username = input("Zadejte uživatelské jméno: ")
 
-        # Prazdné pole
         if not is_name_valid(username):
             print("Chyba: Uživatelské jméno nesmí být prázdné a musí mít alespoň 4 znaky.")
             continue
