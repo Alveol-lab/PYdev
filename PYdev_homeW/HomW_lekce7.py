@@ -113,6 +113,7 @@ def main():
             print_user_info(user_info)  # hlaška
             continue  # začne znovu
 
+
 if __name__ == "__main__":
     main()
 
