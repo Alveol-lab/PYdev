@@ -20,7 +20,7 @@
 #   }
 #
 #   print_user_info: Funkce vytiskne uživatele do konzole s libovolným formátováním, případně vytiskne chybovou zprávu při neúspěšném vytvoření
-#   Pomocí metody create_user vytvoř alespoň 4 různé uživatele. Hodnoty si zvol podle sebe přímo v programu.
+#   Pomocí metody create_user vytvoř alespoň 4 různé uživatele. Hodnoty si zvol podle sebe přímo v programu. ???
 #   Nakonec vytvořené uživatele vytiskni pomocí cyklu a metody print_user_info.
 
 from datetime import datetime
@@ -72,7 +72,7 @@ def main():
     while True:
         username = input("Zadejte uživatelské jméno: ")
 
-# Prazdné pole
+        # Prazdné pole
         if not is_name_valid(username):
             print("Chyba: Uživatelské jméno nesmí být prázdné a musí mít alespoň 4 znaky.")
             continue
@@ -114,5 +114,5 @@ def main():
             continue
 
 if __name__ == "__main__":
-    main()
+    main() #start formulaře
 
